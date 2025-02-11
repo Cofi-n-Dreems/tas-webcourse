@@ -1,0 +1,16 @@
+{
+    "name": "tas-webcourse-demo",
+    "version": "1.0.0",
+    "description": "Development environment for Theta Alpha STEM students",
+    "author": "Knowledge Brown <knowledgexbrown@gmail.com>",
+    "license": "MIT",
+    "main": "app.js",
+    "keywords": [
+        "nodejs",
+        "bootstrap",
+        "express"
+    ],
+    "dependencies": {
+        "express": "^4.21.2"
+    }
+}
