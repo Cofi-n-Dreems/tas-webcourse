@@ -13,9 +13,9 @@ run:
 
 stop:
 	docker stop $(CONTAINER_NAME)
-
-destroy: stop
 	docker rm $(CONTAINER_NAME)
+
+clean: destroy
 	docker rmi $(IMAGE_NAME):$(IMAGE_TAG)
 
 exec:
