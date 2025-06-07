@@ -54,6 +54,14 @@ ul {
     }
 }
 /*Glowing Button Animation*/
+button {
+    box-shadow: 0 0 5px cornflowerblue, 0 0 25px blue;
+}
+
+    button:hover {
+        box-shadow: 0 0 5px cornflowerblue, 0 0 25px blue, 0 0 50px cornflowerblue, 0 0 100px blue, 0 0 200px cornflowerblue;
+    }
+
 h4 {
     box-shadow: 0 0 5px cornflowerblue, 0 0 25px blue;
 }
@@ -70,7 +78,9 @@ p.double {
     margin-right: 300px;
 }
 
-html, body, style{
+
+/*Other Stuff*/
+html, body, style {
     height: 100%;
 }
 
