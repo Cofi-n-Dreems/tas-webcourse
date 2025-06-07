@@ -15,7 +15,7 @@ ul {
     }
 
         ul li:nth-child(1) {
-            color: cornflowerblue
+            color: forestgreen
         }
 
         ul li:nth-child(2) {
@@ -23,7 +23,7 @@ ul {
         }
 
         ul li:nth-child(3) {
-            color: cornflowerblue
+            color: forestgreen
         }
 
         ul li:nth-child(4) {
@@ -36,8 +36,8 @@ ul {
             width: 100%;
             height: 100%;
             left: 0;
-            background-color: whitesmoke;
-            border-left: 5px solid whitesmoke;
+            background-color: antiquewhite;
+            border-left: 5px solid antiquewhite;
             animation: typing 2s steps(100) infinite;
         }
 
@@ -55,25 +55,25 @@ ul {
 }
 /*Glowing Button Animation*/
 button {
-    box-shadow: 0 0 5px cornflowerblue, 0 0 25px blue;
+    box-shadow: 0 0 5px lightgreen, 0 0 25px lightgreen;
 }
 
     button:hover {
-        box-shadow: 0 0 5px cornflowerblue, 0 0 25px blue, 0 0 50px cornflowerblue, 0 0 100px blue, 0 0 200px cornflowerblue;
+        box-shadow: 0 0 5px lightgreen, 0 0 25px lightgreen, 0 0 50px lightgreen, 0 0 100px lightgreen, 0 0 200px lightgreen;
     }
 
 h4 {
-    box-shadow: 0 0 5px cornflowerblue, 0 0 25px blue;
+    box-shadow: 0 0 5px lightgreen, 0 0 25px lightgreen;
 }
 
     h4:hover {
-        box-shadow: 0 0 5px cornflowerblue, 0 0 25px blue, 0 0 50px cornflowerblue, 0 0 100px blue, 0 0 200px cornflowerblue;
+        box-shadow: 0 0 5px lightgreen, 0 0 25px lightgreen, 0 0 50px lightgreen, 0 0 100px lightgreen, 0 0 200px lightgreen;
     }
 
 /*Border*/
 p.double {
     border-style: dashed;
-    border-color: cornflowerblue;
+    border-color: forestgreen;
     margin-left: 300px;
     margin-right: 300px;
 }
